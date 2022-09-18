@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+    <script src="../js/app.js" defer></script>
+    <title> Calculator</title>
+</head>
+
+<body id="bosy">
+    <div id="container">
+        <div id="calculator">
+            <div class="theme">
+                <button id="dark" onclick="darkTheme()" class="operatorbtn d">Dark</button>
+                <button id="light" onclick="lightTheme()" class="operatorbtn l">Light</button>
+            </div>
+            <div id="result" class="thm">
+                <div id="history">
+                    <p id="history-value"></p>
+                </div>
+                <div id="output" class="thm">
+                    <p id="output-value"></p>
+                </div>
+            </div>
+            <div id="keyboard">
+                <button class="operator thm" id="clear">C</button>
+                <button class="operator thm" id="backspace">CE</button>
+                <button class="operator thm" id="%">%</button>
+                <button class="operator " id="/">&#247;</button>
+                <button class="number thm" id="7">7</button>
+                <button class="number thm" id="8">8</button>
+                <button class="number thm" id="9">9</button>
+                <button class="operator " id="*">&times;</button>
+                <button class="number thm" id="4">4</button>
+                <button class="number thm" id="5">5</button>
+                <button class="number thm" id="6">6</button>
+                <button class="operator " id="-">-</button>
+                <button class="number thm" id="1">1</button>
+                <button class="number thm" id="2">2</button>
+                <button class="number thm" id="3">3</button>
+                <button class="operator " id="+">+</button>
+                <button class="empty thm" id="empty"></button>
+                <button class="number thm" id="0">0</button>
+                <button class="empty thm" id="empty"></button>
+                <button class="operator " id="=">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
