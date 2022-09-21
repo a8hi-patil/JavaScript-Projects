@@ -24,7 +24,7 @@ const addNewNode = (text = "") => {
         <textarea class="${text ? "hidden" : ""}"></textarea>`;
 
   note.insertAdjacentHTML("afterbegin", htmlData);
-  //   console.log(note);
+  
 
   const editButton = note.querySelector(".edit");
   const delButton = note.querySelector(".delete");
